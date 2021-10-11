@@ -1,0 +1,94 @@
+/* General formatting */
+
+body {
+  background-color: white;
+  font-family: 'Arial';
+  font-size: 13px;
+}
+
+/* Aligns search elements */
+.searchbox {
+    text-align: center;
+}
+
+.searchbox input {
+    padding: 8px;
+    margin: 4px;
+    border: none;
+}
+
+/* Aligns and formats search linka */
+.searchlinks {
+    text-align: right;
+}
+
+/* Aligns logo image */
+#logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 15%;
+    padding: 20px 0px 20px;
+}
+
+/* Styles search field */
+#searchfield {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    border: 1px solid #999;
+    border-radius: 20px;
+    padding: 10px 5px 10px;
+    width: 25%;
+}
+
+/* Styles for advanced search */
+
+#adv_ruler {
+    margin-bottom: 40px;
+    border-top: 1px solid #ccc;
+}
+
+/* Aligns logo image on advanced page */
+#logo_adv {
+    display: block;
+    margin-left: 0;
+    margin-right: auto;
+    width: 8%;
+    padding: 20px 0px 20px;
+}
+
+#adv_title {
+    color: #d93025;
+    font-size: 20px;
+    margin: 25px 0px 35px 30px;
+}
+
+/* Styles for grid layout */
+
+#grid-container {
+    display: grid;
+    grid-template-columns: 20% 50%;
+    grid-gap: 1em;
+    margin-left: 30px;
+}
+
+.adv_input {
+    width: 99%;
+    justify-self: end;
+    padding-right: 0px;
+}
+
+/* Styles for submit button */
+
+#adv_submit {
+    grid-column: 2/2;
+    width: 10em;
+    justify-self: end;
+    padding: 0px;
+    background-color: #4d90fe;
+    border: 1px solid #3079ed;
+    color: white;
+    height: 120%;
+}

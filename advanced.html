@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <div class="searchlinks">
+        <a href="index.html">Search</a>
+    </div>
+    <img id="logo_adv" src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png">
+    <p id="adv_title">Advanced search</p>
+    <hr id="adv_ruler">
+    
+        <form action="https://google.com/search">
+            <div id="grid-container">
+                <div>
+                    <label>All these words:</label>
+                </div>
+                <div>        
+                    <input class="adv_input" type="text" name="as_q" id="all_words" >
+                </div>
+                <div>
+                    <label>This exact word or phrase:</label>
+                </div>
+                <div>
+                    <input class="adv_input" type="text" name="as_epq" id="exact_words">
+                </div>    
+                <div>
+                    <label>Any of these words:</label>
+                </div>
+                <div>
+                        <input class="adv_input" type="text" name="as_oq" id="any_words">
+                </div>
+                <div>
+                    <label>None of these words:</label>
+                </div>
+                <div>
+                    <input class="adv_input" type="text" name="as_eq" id="none_words">
+                </div>
+                <input type="submit" value="Advanced Search" id="adv_submit">
+            </div> <!-- End of grid -->
+            
+            
+        </form>
+    </body>
+</html>
